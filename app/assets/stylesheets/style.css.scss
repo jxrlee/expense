@@ -1,0 +1,77 @@
+
+body {
+	 padding-top: 50px;
+}
+
+.snapshotbg {
+	background: rgba(70,90,109,1);
+	width: 100%;
+	padding: 40px 0;
+}
+
+h1, h2 {
+	text-align: center;
+}
+h1 { 
+	font-size: 1em; 
+	text-transform: uppercase;
+	font-weight: 800;
+	color: rgba(241,241,241,.7);
+	margin-top: 0px;
+}
+h2 {
+	font-size: 5em;
+	font-weight: 100;
+	color: rgb(241,241,241);
+}
+h3 {
+	font-size: 1em;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-top: 6px;
+	margin-bottom: 0;
+	color: #555;
+}
+h4 {
+	font-weight: 400;
+	font-size: 1.1em;
+	margin: 0;
+	line-height: 1.3em;
+	color: #888;
+}
+
+
+.navbar {
+	background: rgb(54,69,84);
+	border-bottom: none;
+	box-shadow: none;
+}
+.navbar-inverse .navbar-brand {
+	color: rgba(241,241,241,.8);
+	text-shadow: none;
+}
+
+.expense_list {
+	margin-top: 20px;
+	padding: 4px 20px;
+	border-left: 3px solid rgb(241,241,241);
+}
+.expense_list:hover {
+	border-left: 3px solid rgba(70,90,109,.5);
+	background: rgba(241,241,241,.4);
+}
+
+
+.expense_name, .expense_amount {
+	font-size: 1.9em;
+	font-weight: 100;
+	line-height: 1.5em;
+	color: rgb(160,160,164);
+}
+.expense_name {
+	letter-spacing: 1px;
+}
+.expense_amount {
+	font-weight: 300;
+	float:right;
+}
