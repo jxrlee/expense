@@ -1,10 +1,11 @@
+$blue: rgba(70,90,109,1);
 
 body {
 	 padding-top: 50px;
 }
 
 .snapshotbg {
-	background: rgba(70,90,109,1);
+	background: $blue;
 	width: 100%;
 	padding: 40px 0;
 }
