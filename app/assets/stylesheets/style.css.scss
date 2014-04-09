@@ -1,4 +1,6 @@
 $blue: rgba(70,90,109,1);
+$lightGray: rgba(241,241,241,1);
+$gray: rgba(241,241,241,.7);
 
 body {
 	 padding-top: 50px;
@@ -17,13 +19,13 @@ h1 {
 	font-size: 1em; 
 	text-transform: uppercase;
 	font-weight: 800;
-	color: rgba(241,241,241,.7);
+	color: $gray;
 	margin-top: 0px;
 }
 h2 {
 	font-size: 5em;
 	font-weight: 100;
-	color: rgb(241,241,241);
+	color: $lightGray;
 }
 h3 {
 	font-size: 1em;
@@ -48,18 +50,18 @@ h4 {
 	box-shadow: none;
 }
 .navbar-inverse .navbar-brand {
-	color: rgba(241,241,241,.8);
+	color: $gray;
 	text-shadow: none;
 }
 
 .expense_list {
 	margin-top: 20px;
 	padding: 4px 20px;
-	border-left: 3px solid rgb(241,241,241);
-}
-.expense_list:hover {
-	border-left: 3px solid rgba(70,90,109,.5);
-	background: rgba(241,241,241,.4);
+	border-left: 3px solid $lightGray;
+	&:hover {
+		border-left: 3px solid rgba(70,90,109,.5);
+		background: rgba(241,241,241,.4);
+	}
 }
 
 
